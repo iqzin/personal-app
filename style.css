@@ -1,0 +1,13 @@
+body{
+text-align: center;
+    background: rgb(0,228,218);
+background: radial-gradient(circle, rgba(0,228,218,1) 0%, rgba(211,227,9,1) 25%, rgba(118,10,87,1) 75%, rgba(255,0,0,1) 100%);
+}
+img{
+    width: 200px;
+    height: 300px;
+    transition: transform .2s
+}
+img:hover{
+    transform: scale(0.1)
+}
